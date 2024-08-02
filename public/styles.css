@@ -1,0 +1,103 @@
+/* Styling the header h2 */
+h2 {
+  /* Define your styles here */
+  color: black; /* Change text color */
+  font-size: 24px; /* Change font size */
+  font-family: 'Times New Roman', Times, serif; /* Change font family */
+  /* Add more styles as needed */
+}
+label {
+  /* Define your styles here */
+  color: black; /* Change text color */
+  font-size: 16px; /* Change font size */
+  font-family: 'Times New Roman', Times, serif; /* Change font family */
+  /* Add more styles as needed */
+}
+
+a {
+  /* Define your styles here */
+  color: white; /* Change link color */
+  text-decoration: none; /* Remove underline */
+  /* Add more styles as needed */
+
+}
+
+a:hover {
+  /* Define styles for when the link is hovered over */
+  text-decoration: underline; /* Add underline on hover */
+  /* Add more hover styles if desired */
+}
+
+button {
+  /* Define your styles here */
+  padding: 10px 20px; /* Adjust padding for size */
+  background-color: black; /* Change button background color */
+  color: white; /* Change button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  /* Add more styles as needed */
+}
+
+button:hover {
+  /* Define styles for when the button is hovered over */
+  background-color: blue; /* Change background color on hover */
+  /* Add more hover styles if desired */
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+input[type="submit"]:hover {
+  background-color: blue;
+}
+
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: black;
+    color: rgb(237, 233, 233);
+    padding: 12px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    max-height: 200px; /* Limit the maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style the dropdown links */
+  .dropdown-links {
+    display: none;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-links a:hover {
+    background-color: #f1f1f1;
+  }
