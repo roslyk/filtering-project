@@ -5,4 +5,4 @@ This is a small Laravel Project about filtering products in a database. We can f
 Check out this project!
 
 Assuming that you are using XAMPP:
-- To check out this project download project, set up a database named "filtering_project" and go to project's terminal and run the command "php artisan migrate:fresh --seed". The previous command will set up and seed database tables. You are now ready to check out the project!
+- To check out this project download project, set up a database named "filtering-project" and go to project's terminal and run the command "php artisan migrate:fresh --seed". The previous command will set up and seed database tables. You are now ready to check out the project!
